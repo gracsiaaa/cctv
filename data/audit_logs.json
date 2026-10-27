@@ -1,0 +1,314 @@
+[
+  {
+    "id": "aud_f5c7ef60",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:10:17.662010"
+  },
+  {
+    "id": "aud_13920840",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T00:10:17.695936"
+  },
+  {
+    "id": "aud_76947036",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_4027ac",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T00:10:17.722469"
+  },
+  {
+    "id": "aud_2814885d",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_4027ac",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T00:10:17.749294"
+  },
+  {
+    "id": "aud_1ef83a6f",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:14:21.294515"
+  },
+  {
+    "id": "aud_38a39ccf",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T00:14:21.355910"
+  },
+  {
+    "id": "aud_2c1f724c",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_805b83",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T00:14:21.390423"
+  },
+  {
+    "id": "aud_8a0aa19f",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_805b83",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T00:14:21.416502"
+  },
+  {
+    "id": "aud_ce2942e6",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:31:06.900422"
+  },
+  {
+    "id": "aud_e7c4eebe",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T00:31:06.943814"
+  },
+  {
+    "id": "aud_25693def",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_54e854",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T00:31:06.967563"
+  },
+  {
+    "id": "aud_86ae27a8",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_54e854",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T00:31:06.996081"
+  },
+  {
+    "id": "aud_d7f8bb4f",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:39:40.041124"
+  },
+  {
+    "id": "aud_e5fad07f",
+    "actor": "admin",
+    "action": "OVERRIDE_STATUS",
+    "target": "Gracsia Andhika",
+    "details": "Koreksi status LATE_EARLY_LEAVE -> LATE. Alasan: Abc",
+    "timestamp": "2026-09-30T00:40:15.809692"
+  },
+  {
+    "id": "aud_e6c6590e",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:43:15.430125"
+  },
+  {
+    "id": "aud_4600c457",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T00:43:15.468301"
+  },
+  {
+    "id": "aud_15ab1faf",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_16a649",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T00:43:15.493105"
+  },
+  {
+    "id": "aud_ec589065",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_16a649",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T00:43:15.521879"
+  },
+  {
+    "id": "aud_152167a7",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:45:47.349661"
+  },
+  {
+    "id": "aud_818dc315",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T00:47:50.267338"
+  },
+  {
+    "id": "aud_fbc4dab2",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T01:40:17.882731"
+  },
+  {
+    "id": "aud_a95c0b22",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T01:40:17.918797"
+  },
+  {
+    "id": "aud_6f0fcd5c",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_eb1cb6",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T01:40:17.946343"
+  },
+  {
+    "id": "aud_74e2abe6",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_eb1cb6",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T01:40:17.986802"
+  },
+  {
+    "id": "aud_20fdcf59",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T01:43:32.307882"
+  },
+  {
+    "id": "aud_19bd3008",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T01:43:32.351511"
+  },
+  {
+    "id": "aud_1953b7ae",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_7e1654",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T01:43:32.383097"
+  },
+  {
+    "id": "aud_35bfbef0",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_7e1654",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T01:43:32.407656"
+  },
+  {
+    "id": "aud_d38103e3",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T02:04:28.039788"
+  },
+  {
+    "id": "aud_5c718488",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-09-30T02:04:28.075454"
+  },
+  {
+    "id": "aud_5249faeb",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_895ac7",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-09-30T02:04:28.100455"
+  },
+  {
+    "id": "aud_69749693",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_895ac7",
+    "details": "Menghapus shift",
+    "timestamp": "2026-09-30T02:04:28.127567"
+  },
+  {
+    "id": "aud_43912484",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-09-30T02:07:27.397027"
+  },
+  {
+    "id": "aud_1ea16136",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-10-01T15:40:18.739494"
+  },
+  {
+    "id": "aud_b8c054a4",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-10-14T16:11:35.795977"
+  },
+  {
+    "id": "aud_2af13ea8",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-10-14T17:08:57.972199"
+  },
+  {
+    "id": "aud_35ba1f5b",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-10-14T17:08:58.006896"
+  },
+  {
+    "id": "aud_53e4bb91",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_cdd86f",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-10-14T17:08:58.030249"
+  },
+  {
+    "id": "aud_4444e316",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_cdd86f",
+    "details": "Menghapus shift",
+    "timestamp": "2026-10-14T17:08:58.053794"
+  }
+]

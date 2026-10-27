@@ -1,0 +1,1002 @@
+[
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0518,
+    "timestamp": "2026-10-14T17:39:48.087667"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0592,
+    "timestamp": "2026-10-14T17:39:49.128910"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0285,
+    "timestamp": "2026-10-14T17:39:54.491736"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0407,
+    "timestamp": "2026-10-14T17:39:55.578609"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0372,
+    "timestamp": "2026-10-14T17:39:56.543390"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0536,
+    "timestamp": "2026-10-14T17:39:57.628574"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0397,
+    "timestamp": "2026-10-14T17:39:58.724434"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0781,
+    "timestamp": "2026-10-14T17:40:10.157223"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0429,
+    "timestamp": "2026-10-14T17:40:14.339481"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0316,
+    "timestamp": "2026-10-14T17:40:15.423220"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0193,
+    "timestamp": "2026-10-14T17:40:16.558544"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0327,
+    "timestamp": "2026-10-14T17:40:17.585642"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0375,
+    "timestamp": "2026-10-14T17:40:18.665646"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0349,
+    "timestamp": "2026-10-14T17:40:19.634150"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0356,
+    "timestamp": "2026-10-14T17:40:20.757123"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0449,
+    "timestamp": "2026-10-14T17:40:21.747189"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0374,
+    "timestamp": "2026-10-14T17:40:22.894058"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0349,
+    "timestamp": "2026-10-14T17:40:29.399120"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0399,
+    "timestamp": "2026-10-14T17:40:30.151811"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0426,
+    "timestamp": "2026-10-14T17:40:31.302772"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0357,
+    "timestamp": "2026-10-14T17:40:32.313944"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.036,
+    "timestamp": "2026-10-14T17:40:33.426224"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0415,
+    "timestamp": "2026-10-14T17:40:44.944618"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0455,
+    "timestamp": "2026-10-14T17:40:45.910998"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0457,
+    "timestamp": "2026-10-14T17:40:49.122385"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0459,
+    "timestamp": "2026-10-14T17:40:51.193249"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0452,
+    "timestamp": "2026-10-14T17:40:52.191912"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0513,
+    "timestamp": "2026-10-14T17:40:58.750965"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.058,
+    "timestamp": "2026-10-14T17:40:59.644938"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0515,
+    "timestamp": "2026-10-14T17:41:00.701234"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0586,
+    "timestamp": "2026-10-14T17:41:01.922705"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0679,
+    "timestamp": "2026-10-14T17:41:02.866872"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0482,
+    "timestamp": "2026-10-14T17:41:09.234543"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0542,
+    "timestamp": "2026-10-14T17:41:17.675181"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0573,
+    "timestamp": "2026-10-14T17:41:18.723326"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0541,
+    "timestamp": "2026-10-14T17:41:19.825521"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0511,
+    "timestamp": "2026-10-14T17:41:20.778764"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0506,
+    "timestamp": "2026-10-14T17:41:21.816293"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0377,
+    "timestamp": "2026-10-14T17:41:23.226287"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0351,
+    "timestamp": "2026-10-14T17:41:24.086145"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0417,
+    "timestamp": "2026-10-14T17:41:25.184881"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0328,
+    "timestamp": "2026-10-14T17:41:26.245749"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.115,
+    "timestamp": "2026-10-14T17:41:34.686882"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1468,
+    "timestamp": "2026-10-14T17:41:35.815895"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0787,
+    "timestamp": "2026-10-14T17:41:36.841630"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0517,
+    "timestamp": "2026-10-14T17:41:41.028531"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0591,
+    "timestamp": "2026-10-14T17:41:43.129396"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0558,
+    "timestamp": "2026-10-14T17:41:44.164144"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0662,
+    "timestamp": "2026-10-14T17:41:45.314091"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0619,
+    "timestamp": "2026-10-14T17:41:57.004476"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0485,
+    "timestamp": "2026-10-14T17:41:57.961718"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0476,
+    "timestamp": "2026-10-14T17:41:58.999667"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0584,
+    "timestamp": "2026-10-14T17:42:00.030019"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0648,
+    "timestamp": "2026-10-14T17:42:01.336335"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0589,
+    "timestamp": "2026-10-14T17:42:02.192017"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0619,
+    "timestamp": "2026-10-14T17:42:03.250083"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0624,
+    "timestamp": "2026-10-14T17:42:04.249405"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0438,
+    "timestamp": "2026-10-14T17:42:21.180312"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0681,
+    "timestamp": "2026-10-14T17:42:22.227181"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0457,
+    "timestamp": "2026-10-14T17:42:23.314328"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0493,
+    "timestamp": "2026-10-14T17:42:24.347261"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0573,
+    "timestamp": "2026-10-14T17:42:25.426590"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0568,
+    "timestamp": "2026-10-14T17:42:45.560618"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0517,
+    "timestamp": "2026-10-14T17:42:47.629347"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0486,
+    "timestamp": "2026-10-14T17:42:48.704577"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0474,
+    "timestamp": "2026-10-14T17:42:49.953034"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0544,
+    "timestamp": "2026-10-14T17:42:50.879596"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0504,
+    "timestamp": "2026-10-14T17:42:51.844602"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.052,
+    "timestamp": "2026-10-14T17:42:52.914443"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0484,
+    "timestamp": "2026-10-14T17:42:54.053028"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0476,
+    "timestamp": "2026-10-14T17:42:55.047646"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0602,
+    "timestamp": "2026-10-14T17:43:17.209096"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0501,
+    "timestamp": "2026-10-14T17:43:18.271046"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0488,
+    "timestamp": "2026-10-14T17:43:25.745148"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0474,
+    "timestamp": "2026-10-14T17:43:26.776202"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0509,
+    "timestamp": "2026-10-14T17:43:28.911272"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0977,
+    "timestamp": "2026-10-14T17:43:40.535287"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1098,
+    "timestamp": "2026-10-14T17:43:41.701633"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1039,
+    "timestamp": "2026-10-14T17:43:42.727827"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1153,
+    "timestamp": "2026-10-14T17:43:45.915388"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1466,
+    "timestamp": "2026-10-14T17:43:46.918844"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0793,
+    "timestamp": "2026-10-14T17:43:54.529223"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.038,
+    "timestamp": "2026-10-14T17:43:54.575455"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0492,
+    "timestamp": "2026-10-14T17:43:57.472881"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0615,
+    "timestamp": "2026-10-14T17:43:58.607336"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0456,
+    "timestamp": "2026-10-14T17:44:03.763796"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0552,
+    "timestamp": "2026-10-14T17:44:04.820226"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0671,
+    "timestamp": "2026-10-14T17:44:05.902709"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.071,
+    "timestamp": "2026-10-14T17:44:06.982434"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0718,
+    "timestamp": "2026-10-14T17:44:07.991663"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0561,
+    "timestamp": "2026-10-14T17:44:23.866162"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0666,
+    "timestamp": "2026-10-14T17:44:27.092946"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0528,
+    "timestamp": "2026-10-14T17:44:29.092570"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0352,
+    "timestamp": "2026-10-14T17:44:30.128662"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0583,
+    "timestamp": "2026-10-14T17:44:43.925095"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1348,
+    "timestamp": "2026-10-14T17:44:48.446129"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.106,
+    "timestamp": "2026-10-14T17:44:48.486011"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0911,
+    "timestamp": "2026-10-14T17:44:49.240619"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0815,
+    "timestamp": "2026-10-14T17:44:52.327544"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0443,
+    "timestamp": "2026-10-14T17:44:55.772799"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1104,
+    "timestamp": "2026-10-14T17:44:56.736546"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0505,
+    "timestamp": "2026-10-14T17:44:57.897621"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1302,
+    "timestamp": "2026-10-14T17:44:58.863958"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0543,
+    "timestamp": "2026-10-14T17:45:00.977783"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0627,
+    "timestamp": "2026-10-14T17:45:12.627721"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0658,
+    "timestamp": "2026-10-14T17:45:13.709981"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0546,
+    "timestamp": "2026-10-14T17:45:14.786019"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0397,
+    "timestamp": "2026-10-14T17:45:16.934079"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0434,
+    "timestamp": "2026-10-14T17:45:17.912615"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0489,
+    "timestamp": "2026-10-14T17:45:20.079506"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0493,
+    "timestamp": "2026-10-14T17:45:22.214346"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0476,
+    "timestamp": "2026-10-14T17:45:25.307748"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0692,
+    "timestamp": "2026-10-14T17:45:26.386150"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0652,
+    "timestamp": "2026-10-14T17:45:29.702127"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1133,
+    "timestamp": "2026-10-14T17:45:30.909647"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0682,
+    "timestamp": "2026-10-14T17:45:30.953387"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1228,
+    "timestamp": "2026-10-14T17:45:31.723332"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1467,
+    "timestamp": "2026-10-14T17:45:32.891560"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0517,
+    "timestamp": "2026-10-14T17:45:34.118826"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1009,
+    "timestamp": "2026-10-14T17:45:36.658730"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0616,
+    "timestamp": "2026-10-14T17:45:36.694527"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0735,
+    "timestamp": "2026-10-14T17:45:37.680906"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0588,
+    "timestamp": "2026-10-14T17:45:37.719956"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1119,
+    "timestamp": "2026-10-14T17:45:38.700962"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0602,
+    "timestamp": "2026-10-14T17:45:38.740017"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1,
+    "timestamp": "2026-10-14T17:45:39.680678"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0658,
+    "timestamp": "2026-10-14T17:45:39.713463"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0881,
+    "timestamp": "2026-10-14T17:45:40.734089"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0414,
+    "timestamp": "2026-10-14T17:45:40.777747"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0509,
+    "timestamp": "2026-10-14T17:45:41.570252"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0673,
+    "timestamp": "2026-10-14T17:45:42.729002"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0541,
+    "timestamp": "2026-10-14T17:45:43.831559"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0504,
+    "timestamp": "2026-10-14T17:45:44.822118"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0482,
+    "timestamp": "2026-10-14T17:45:46.109374"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.143,
+    "timestamp": "2026-10-14T17:45:54.266606"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.2473,
+    "timestamp": "2026-10-14T17:45:55.324259"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.2145,
+    "timestamp": "2026-10-14T17:45:56.350684"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1314,
+    "timestamp": "2026-10-14T17:45:57.385221"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0954,
+    "timestamp": "2026-10-14T17:45:58.560008"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0553,
+    "timestamp": "2026-10-14T17:45:59.607284"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1229,
+    "timestamp": "2026-10-14T17:46:01.658273"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0964,
+    "timestamp": "2026-10-14T17:46:02.762406"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.074,
+    "timestamp": "2026-10-14T17:46:05.817706"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0717,
+    "timestamp": "2026-10-14T17:46:06.947009"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0339,
+    "timestamp": "2026-10-14T17:46:16.655943"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0853,
+    "timestamp": "2026-10-14T17:46:16.696495"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0586,
+    "timestamp": "2026-10-14T17:46:35.474808"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.064,
+    "timestamp": "2026-10-14T17:46:37.500875"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0505,
+    "timestamp": "2026-10-14T17:46:38.697704"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0569,
+    "timestamp": "2026-10-14T17:46:39.684859"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0499,
+    "timestamp": "2026-10-14T17:46:45.219319"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0552,
+    "timestamp": "2026-10-14T17:46:45.274402"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0498,
+    "timestamp": "2026-10-14T17:46:46.397100"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0379,
+    "timestamp": "2026-10-14T17:46:46.431608"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.042,
+    "timestamp": "2026-10-14T17:46:47.267488"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0391,
+    "timestamp": "2026-10-14T17:46:47.345857"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0462,
+    "timestamp": "2026-10-14T17:46:48.122826"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0384,
+    "timestamp": "2026-10-14T17:46:49.426709"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.046,
+    "timestamp": "2026-10-14T17:46:49.484534"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0385,
+    "timestamp": "2026-10-14T17:46:50.258621"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0516,
+    "timestamp": "2026-10-14T17:46:51.433778"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0608,
+    "timestamp": "2026-10-14T17:46:52.329707"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0409,
+    "timestamp": "2026-10-14T17:46:53.402473"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0229,
+    "timestamp": "2026-10-14T17:47:00.856311"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0293,
+    "timestamp": "2026-10-14T17:47:04.029230"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0395,
+    "timestamp": "2026-10-14T17:47:07.266829"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0427,
+    "timestamp": "2026-10-14T17:47:09.280437"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0392,
+    "timestamp": "2026-10-14T17:47:10.251868"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0481,
+    "timestamp": "2026-10-14T17:47:11.377556"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0262,
+    "timestamp": "2026-10-14T17:47:12.398951"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.042,
+    "timestamp": "2026-10-14T17:47:13.458580"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0282,
+    "timestamp": "2026-10-14T17:47:21.999850"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0553,
+    "timestamp": "2026-10-14T17:47:23.004667"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0762,
+    "timestamp": "2026-10-14T17:47:25.068707"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0941,
+    "timestamp": "2026-10-14T17:47:28.277242"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0577,
+    "timestamp": "2026-10-14T17:47:33.480504"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0916,
+    "timestamp": "2026-10-14T17:47:34.573712"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0744,
+    "timestamp": "2026-10-14T17:47:35.526676"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0936,
+    "timestamp": "2026-10-14T17:47:36.784460"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.054,
+    "timestamp": "2026-10-14T17:47:36.850036"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1113,
+    "timestamp": "2026-10-14T17:47:37.974021"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0447,
+    "timestamp": "2026-10-14T17:47:38.018689"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0981,
+    "timestamp": "2026-10-14T17:47:39.736393"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0759,
+    "timestamp": "2026-10-14T17:47:40.874785"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.1041,
+    "timestamp": "2026-10-14T17:47:43.073977"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0423,
+    "timestamp": "2026-10-14T17:47:55.584800"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0354,
+    "timestamp": "2026-10-14T17:47:56.645926"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0469,
+    "timestamp": "2026-10-14T17:47:57.698188"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0659,
+    "timestamp": "2026-10-14T17:48:08.254262"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.058,
+    "timestamp": "2026-10-14T17:48:09.583203"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0607,
+    "timestamp": "2026-10-14T17:48:10.442298"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0672,
+    "timestamp": "2026-10-14T17:48:11.874541"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0543,
+    "timestamp": "2026-10-14T17:48:12.612087"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0446,
+    "timestamp": "2026-10-14T17:48:19.748341"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0546,
+    "timestamp": "2026-10-14T17:48:21.977286"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0813,
+    "timestamp": "2026-10-14T17:48:31.317144"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0882,
+    "timestamp": "2026-10-14T17:48:36.468205"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0878,
+    "timestamp": "2026-10-14T17:48:49.092572"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0681,
+    "timestamp": "2026-10-14T17:48:50.196561"
+  },
+  {
+    "camera_id": "cam_ee39d962",
+    "confidence": 0.0256,
+    "timestamp": "2026-10-14T17:48:57.628492"
+  }
+]

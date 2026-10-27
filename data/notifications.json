@@ -1,0 +1,802 @@
+[
+  {
+    "id": "notif_1092ac52",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:44:56",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:44:56.755534"
+  },
+  {
+    "id": "notif_4ecc38ff",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:44:57",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:44:57.923257"
+  },
+  {
+    "id": "notif_f6a625ab",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:44:58",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:44:58.891660"
+  },
+  {
+    "id": "notif_10bf075a",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:00",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:01.005765"
+  },
+  {
+    "id": "notif_80299346",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:12",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:12.653585"
+  },
+  {
+    "id": "notif_f8ac4e76",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:13",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:13.734012"
+  },
+  {
+    "id": "notif_0ce15f2f",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:14",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:14.811744"
+  },
+  {
+    "id": "notif_97ccf7db",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:16",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:16.959142"
+  },
+  {
+    "id": "notif_bb06a1a7",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:17",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:17.937068"
+  },
+  {
+    "id": "notif_ad360fc4",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:20",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:20.113402"
+  },
+  {
+    "id": "notif_8b80bca8",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:22",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:22.246181"
+  },
+  {
+    "id": "notif_a037a255",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:25",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:25.363845"
+  },
+  {
+    "id": "notif_b6ba978f",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:26",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:26.412372"
+  },
+  {
+    "id": "notif_f5a4a422",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:29",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:29.724609"
+  },
+  {
+    "id": "notif_53128edf",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:30",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:30.939358"
+  },
+  {
+    "id": "notif_9e35bbcb",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:30",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:30.980340"
+  },
+  {
+    "id": "notif_a31ae6f4",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:31",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:31.749864"
+  },
+  {
+    "id": "notif_26b2fe09",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:32",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:32.930643"
+  },
+  {
+    "id": "notif_55aef0c2",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:34",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:34.148362"
+  },
+  {
+    "id": "notif_22f09432",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:36",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:36.683534"
+  },
+  {
+    "id": "notif_10f0ccb5",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:36",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:36.714581"
+  },
+  {
+    "id": "notif_c2fc1424",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:37",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:37.706933"
+  },
+  {
+    "id": "notif_c06a93e2",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:37",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:37.740027"
+  },
+  {
+    "id": "notif_19957d2d",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:38",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:38.728499"
+  },
+  {
+    "id": "notif_221931f4",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:38",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:38.762045"
+  },
+  {
+    "id": "notif_d6dc7400",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:39",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:39.701945"
+  },
+  {
+    "id": "notif_a585b29c",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:39",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:39.736056"
+  },
+  {
+    "id": "notif_604e95ce",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:40",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:40.766692"
+  },
+  {
+    "id": "notif_4eff7f67",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:40",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:40.815797"
+  },
+  {
+    "id": "notif_9da69a2e",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:41",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:41.610867"
+  },
+  {
+    "id": "notif_60b609f4",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:42",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:42.770060"
+  },
+  {
+    "id": "notif_24b95d99",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:43",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:43.859106"
+  },
+  {
+    "id": "notif_97604ba4",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:44",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:44.854679"
+  },
+  {
+    "id": "notif_bf1b1156",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:46",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:46.130919"
+  },
+  {
+    "id": "notif_f9ef27c8",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:54",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:54.287631"
+  },
+  {
+    "id": "notif_333d3509",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:55",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:55.347295"
+  },
+  {
+    "id": "notif_39d0794f",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:56",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:56.383271"
+  },
+  {
+    "id": "notif_04eb5241",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:57",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:57.412281"
+  },
+  {
+    "id": "notif_a03054f1",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:58",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:58.590558"
+  },
+  {
+    "id": "notif_78a25a4b",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:45:59",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:45:59.628812"
+  },
+  {
+    "id": "notif_5ea5cdfd",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:01",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:01.680951"
+  },
+  {
+    "id": "notif_6fbe7395",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:02",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:02.808956"
+  },
+  {
+    "id": "notif_00ee73c2",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:05",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:05.851770"
+  },
+  {
+    "id": "notif_ac1a3b66",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:06",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:06.969553"
+  },
+  {
+    "id": "notif_5c15b55e",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:16",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:16.681946"
+  },
+  {
+    "id": "notif_f7f9fbde",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:16",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:16.721039"
+  },
+  {
+    "id": "notif_ae4825aa",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:35",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:35.530981"
+  },
+  {
+    "id": "notif_e064dde2",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:37",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:37.566457"
+  },
+  {
+    "id": "notif_1e02340d",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:38",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:38.728244"
+  },
+  {
+    "id": "notif_0891c009",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:39",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:39.728414"
+  },
+  {
+    "id": "notif_b5c042fb",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:45",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:45.262508"
+  },
+  {
+    "id": "notif_8b464e4d",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:45",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:45.299515"
+  },
+  {
+    "id": "notif_2d9dd883",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:46",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:46.419561"
+  },
+  {
+    "id": "notif_f07a31f5",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:46",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:46.451357"
+  },
+  {
+    "id": "notif_bc255091",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:47",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:47.301381"
+  },
+  {
+    "id": "notif_b192b754",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:47",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:47.392827"
+  },
+  {
+    "id": "notif_52be2039",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:48",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:48.156364"
+  },
+  {
+    "id": "notif_620f3177",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:49",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:49.470963"
+  },
+  {
+    "id": "notif_d4468eb8",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:49",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:49.509065"
+  },
+  {
+    "id": "notif_b4b84114",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:50",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:50.292175"
+  },
+  {
+    "id": "notif_958bf684",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:51",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:51.459327"
+  },
+  {
+    "id": "notif_2809d669",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:52",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:52.393284"
+  },
+  {
+    "id": "notif_203ad4db",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:46:53",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:46:53.440523"
+  },
+  {
+    "id": "notif_4fe251fe",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:00",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:00.870640"
+  },
+  {
+    "id": "notif_810d4b10",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:04",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:04.056258"
+  },
+  {
+    "id": "notif_5c1aa2ae",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:07",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:07.296865"
+  },
+  {
+    "id": "notif_843b8b73",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:09",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:09.301965"
+  },
+  {
+    "id": "notif_c80365e5",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:10",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:10.311951"
+  },
+  {
+    "id": "notif_1ceec528",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:11",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:11.398590"
+  },
+  {
+    "id": "notif_c3517a5f",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:12",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:12.439790"
+  },
+  {
+    "id": "notif_741adfbd",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:13",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:13.522650"
+  },
+  {
+    "id": "notif_a4c2daef",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:21",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:22.028380"
+  },
+  {
+    "id": "notif_232e0f5c",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:23",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:23.048355"
+  },
+  {
+    "id": "notif_a3cb73eb",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:25",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:25.094743"
+  },
+  {
+    "id": "notif_e615c2c1",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:28",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:28.309341"
+  },
+  {
+    "id": "notif_6be10a8f",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:33",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:33.527553"
+  },
+  {
+    "id": "notif_65723f0b",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:34",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:34.622338"
+  },
+  {
+    "id": "notif_010afe24",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:35",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:35.572779"
+  },
+  {
+    "id": "notif_11318f0d",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:36",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:36.836016"
+  },
+  {
+    "id": "notif_2004cb37",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:36",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:36.896589"
+  },
+  {
+    "id": "notif_0c35e36a",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:37",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:38.004675"
+  },
+  {
+    "id": "notif_80ddbe2c",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:38",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:38.057744"
+  },
+  {
+    "id": "notif_d6df3bea",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:39",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:39.762440"
+  },
+  {
+    "id": "notif_63dda6bd",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:40",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:40.904364"
+  },
+  {
+    "id": "notif_46262443",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:43",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:43.098973"
+  },
+  {
+    "id": "notif_bbad6496",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:55",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:55.619845"
+  },
+  {
+    "id": "notif_8588f1ea",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:56",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:56.658282"
+  },
+  {
+    "id": "notif_89cb72cc",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:47:57",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:47:57.730812"
+  },
+  {
+    "id": "notif_58028dee",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:08",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:08.289310"
+  },
+  {
+    "id": "notif_af55e1e8",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:09",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:09.605492"
+  },
+  {
+    "id": "notif_8d4921b7",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:10",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:10.462328"
+  },
+  {
+    "id": "notif_b8c7bb27",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:11",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:11.912349"
+  },
+  {
+    "id": "notif_47ee8ae9",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:12",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:12.688183"
+  },
+  {
+    "id": "notif_1b65b95a",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:19",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:19.782497"
+  },
+  {
+    "id": "notif_e0f24a01",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:21",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:21.998618"
+  },
+  {
+    "id": "notif_45befec1",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:31",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:31.368567"
+  },
+  {
+    "id": "notif_6a57bdef",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:36",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:36.498821"
+  },
+  {
+    "id": "notif_0ffee0d7",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:49",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:49.119099"
+  },
+  {
+    "id": "notif_7a6a30ff",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:50",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:50.231252"
+  },
+  {
+    "id": "notif_6cda3e8b",
+    "type": "UNKNOWN",
+    "title": "Wajah Tidak Dikenal Terdeteksi",
+    "message": "Kamera ABC mendeteksi orang tanpa identitas pada 17:48:57",
+    "is_read": false,
+    "timestamp": "2026-10-14T17:48:57.653337"
+  }
+]

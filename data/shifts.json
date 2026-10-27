@@ -1,0 +1,23 @@
+[
+  {
+    "id": "shift_pagi",
+    "name": "Shift Pagi (Utama)",
+    "check_in": "08:00",
+    "check_out": "17:00",
+    "late_tolerance_minutes": 15
+  },
+  {
+    "id": "shift_siang",
+    "name": "Shift Siang",
+    "check_in": "13:00",
+    "check_out": "21:00",
+    "late_tolerance_minutes": 15
+  },
+  {
+    "id": "shift_malam",
+    "name": "Shift Malam",
+    "check_in": "21:00",
+    "check_out": "06:00",
+    "late_tolerance_minutes": 15
+  }
+]

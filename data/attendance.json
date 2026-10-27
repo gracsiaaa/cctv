@@ -1,0 +1,117 @@
+[
+  {
+    "id": "TestUser_2026-10-14",
+    "name": "TestUser",
+    "date": "2026-10-14",
+    "check_in": "17:36:29",
+    "check_out": null,
+    "status": "ON_TIME",
+    "confidence": 0.95,
+    "camera_id": "cam1",
+    "events": [
+      {
+        "time": "17:36:29",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      }
+    ]
+  },
+  {
+    "id": "BudiStatus_2026-10-14",
+    "name": "BudiStatus",
+    "date": "2026-10-14",
+    "check_in": "17:36:29",
+    "check_out": "17:36:29",
+    "status": "LATE_EARLY_LEAVE",
+    "confidence": 0.95,
+    "camera_id": "cam1",
+    "events": [
+      {
+        "time": "17:36:29",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "17:36:29",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "17:36:29",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      }
+    ]
+  },
+  {
+    "id": "Aga_2026-10-14",
+    "name": "Aga",
+    "date": "2026-10-14",
+    "check_in": "17:37:44",
+    "check_out": "17:38:24",
+    "status": "LATE_EARLY_LEAVE",
+    "confidence": 0.4619,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "17:37:44",
+        "confidence": 0.4619,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:38:22",
+        "confidence": 0.5691,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:38:23",
+        "confidence": 0.5691,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:38:24",
+        "confidence": 0.5691,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "Sdq_2026-10-14",
+    "name": "Sdq",
+    "date": "2026-10-14",
+    "check_in": "17:38:49",
+    "check_out": "17:39:11",
+    "status": "LATE_EARLY_LEAVE",
+    "confidence": 0.5712,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "17:38:49",
+        "confidence": 0.5712,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:39:11",
+        "confidence": 0.6232,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "Muhammad Sidiq_2026-10-14",
+    "name": "Muhammad Sidiq",
+    "date": "2026-10-14",
+    "check_in": "17:38:54",
+    "check_out": null,
+    "status": "LATE",
+    "confidence": 0.6959,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "17:38:54",
+        "confidence": 0.6959,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Day Shift",
+  "check_in": "08:00",
+  "check_out": "23:59",
+  "late_tolerance_minutes": 15
+}

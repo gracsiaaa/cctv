@@ -1,0 +1,11 @@
+[
+  {
+    "id": "cam_ee39d962",
+    "name": "ABC",
+    "rtsp_url": "rtsp://admin:Multi100%@192.168.1.2:554/h264/ch1/main/av_stream",
+    "location": "PD",
+    "mode": "AUTO",
+    "status": "ONLINE",
+    "last_checked": null
+  }
+]
