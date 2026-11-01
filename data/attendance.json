@@ -1,45 +1,101 @@
 [
   {
-    "id": "TestUser_2026-10-14",
-    "name": "TestUser",
-    "date": "2026-10-14",
-    "check_in": "17:36:29",
-    "check_out": null,
+    "id": "Aga_2026-11-02",
+    "name": "Aga",
+    "date": "2026-11-02",
+    "check_in": "07:54:12",
+    "check_out": "17:05:43",
     "status": "ON_TIME",
-    "confidence": 0.95,
-    "camera_id": "cam1",
+    "confidence": 0.884,
+    "camera_id": "cam_ee39d962",
     "events": [
       {
-        "time": "17:36:29",
-        "confidence": 0.95,
-        "camera_id": "cam1"
+        "time": "07:54:12",
+        "confidence": 0.884,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:05:43",
+        "confidence": 0.892,
+        "camera_id": "cam_ee39d962"
       }
     ]
   },
   {
-    "id": "BudiStatus_2026-10-14",
-    "name": "BudiStatus",
-    "date": "2026-10-14",
-    "check_in": "17:36:29",
-    "check_out": "17:36:29",
-    "status": "LATE_EARLY_LEAVE",
-    "confidence": 0.95,
-    "camera_id": "cam1",
+    "id": "Muhammad Sidiq_2026-11-02",
+    "name": "Muhammad Sidiq",
+    "date": "2026-11-02",
+    "check_in": "08:08:25",
+    "check_out": "17:02:11",
+    "status": "ON_TIME",
+    "confidence": 0.915,
+    "camera_id": "cam_ee39d962",
     "events": [
       {
-        "time": "17:36:29",
-        "confidence": 0.95,
-        "camera_id": "cam1"
+        "time": "08:08:25",
+        "confidence": 0.915,
+        "camera_id": "cam_ee39d962"
       },
       {
-        "time": "17:36:29",
-        "confidence": 0.95,
-        "camera_id": "cam1"
+        "time": "17:02:11",
+        "confidence": 0.908,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "Gracsia Andhika_2026-11-02",
+    "name": "Gracsia Andhika",
+    "date": "2026-11-02",
+    "check_in": "08:24:10",
+    "check_out": "04:02:00",
+    "status": "LATE_EARLY_LEAVE",
+    "confidence": 0.876,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "08:24:10",
+        "confidence": 0.876,
+        "camera_id": "cam_ee39d962"
       },
       {
-        "time": "17:36:29",
-        "confidence": 0.95,
-        "camera_id": "cam1"
+        "time": "04:02:00",
+        "confidence": 0.7092,
+        "camera_id": "webcam_live"
+      }
+    ]
+  },
+  {
+    "id": "Grace_2026-11-02",
+    "name": "Grace",
+    "date": "2026-11-02",
+    "check_in": "07:49:33",
+    "check_out": null,
+    "status": "ON_TIME",
+    "confidence": 0.931,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "07:49:33",
+        "confidence": 0.931,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "Sdq_2026-11-02",
+    "name": "Sdq",
+    "date": "2026-11-02",
+    "check_in": "08:35:19",
+    "check_out": null,
+    "status": "LATE",
+    "confidence": 0.862,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "08:35:19",
+        "confidence": 0.862,
+        "camera_id": "cam_ee39d962"
       }
     ]
   },
@@ -47,30 +103,20 @@
     "id": "Aga_2026-10-14",
     "name": "Aga",
     "date": "2026-10-14",
-    "check_in": "17:37:44",
-    "check_out": "17:38:24",
-    "status": "LATE_EARLY_LEAVE",
-    "confidence": 0.4619,
+    "check_in": "17:14:34",
+    "check_out": "17:38:21",
+    "status": "ON_TIME",
+    "confidence": 0.852,
     "camera_id": "cam_ee39d962",
     "events": [
       {
-        "time": "17:37:44",
-        "confidence": 0.4619,
+        "time": "17:14:34",
+        "confidence": 0.852,
         "camera_id": "cam_ee39d962"
       },
       {
-        "time": "17:38:22",
-        "confidence": 0.5691,
-        "camera_id": "cam_ee39d962"
-      },
-      {
-        "time": "17:38:23",
-        "confidence": 0.5691,
-        "camera_id": "cam_ee39d962"
-      },
-      {
-        "time": "17:38:24",
-        "confidence": 0.5691,
+        "time": "17:38:21",
+        "confidence": 0.869,
         "camera_id": "cam_ee39d962"
       }
     ]
@@ -79,20 +125,20 @@
     "id": "Sdq_2026-10-14",
     "name": "Sdq",
     "date": "2026-10-14",
-    "check_in": "17:38:49",
-    "check_out": "17:39:11",
-    "status": "LATE_EARLY_LEAVE",
-    "confidence": 0.5712,
+    "check_in": "17:17:14",
+    "check_out": "17:39:18",
+    "status": "ON_TIME",
+    "confidence": 0.871,
     "camera_id": "cam_ee39d962",
     "events": [
       {
-        "time": "17:38:49",
-        "confidence": 0.5712,
+        "time": "17:17:14",
+        "confidence": 0.871,
         "camera_id": "cam_ee39d962"
       },
       {
-        "time": "17:39:11",
-        "confidence": 0.6232,
+        "time": "17:39:18",
+        "confidence": 0.883,
         "camera_id": "cam_ee39d962"
       }
     ]
@@ -101,16 +147,163 @@
     "id": "Muhammad Sidiq_2026-10-14",
     "name": "Muhammad Sidiq",
     "date": "2026-10-14",
-    "check_in": "17:38:54",
-    "check_out": null,
-    "status": "LATE",
-    "confidence": 0.6959,
+    "check_in": "17:22:45",
+    "check_out": "17:39:14",
+    "status": "ON_TIME",
+    "confidence": 0.895,
     "camera_id": "cam_ee39d962",
     "events": [
       {
-        "time": "17:38:54",
-        "confidence": 0.6959,
+        "time": "17:22:45",
+        "confidence": 0.895,
         "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:39:14",
+        "confidence": 0.902,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "Gracsia Andhika_2026-10-14",
+    "name": "Gracsia Andhika",
+    "date": "2026-10-14",
+    "check_in": "17:27:57",
+    "check_out": "17:28:07",
+    "status": "ON_TIME",
+    "confidence": 0.841,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "17:27:57",
+        "confidence": 0.841,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:28:07",
+        "confidence": 0.854,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "Grace_2026-10-14",
+    "name": "Grace",
+    "date": "2026-10-14",
+    "check_in": "17:28:07",
+    "check_out": "17:29:46",
+    "status": "ON_TIME",
+    "confidence": 0.887,
+    "camera_id": "cam_ee39d962",
+    "events": [
+      {
+        "time": "17:28:07",
+        "confidence": 0.887,
+        "camera_id": "cam_ee39d962"
+      },
+      {
+        "time": "17:29:46",
+        "confidence": 0.899,
+        "camera_id": "cam_ee39d962"
+      }
+    ]
+  },
+  {
+    "id": "TestUser_2026-11-02",
+    "name": "TestUser",
+    "date": "2026-11-02",
+    "check_in": "03:59:09",
+    "check_out": null,
+    "status": "ON_TIME",
+    "confidence": 0.95,
+    "camera_id": "cam1",
+    "events": [
+      {
+        "time": "03:59:09",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "04:41:42",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      }
+    ]
+  },
+  {
+    "id": "BudiStatus_2026-11-02",
+    "name": "BudiStatus",
+    "date": "2026-11-02",
+    "check_in": "03:59:09",
+    "check_out": "03:59:09",
+    "status": "ON_TIME",
+    "confidence": 0.95,
+    "camera_id": "cam1",
+    "events": [
+      {
+        "time": "03:59:09",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "03:59:09",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "03:59:09",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "04:41:43",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      }
+    ]
+  },
+  {
+    "id": "TestUser_abc4c9_2026-11-02",
+    "name": "TestUser_abc4c9",
+    "date": "2026-11-02",
+    "check_in": "04:42:44",
+    "check_out": null,
+    "status": "ON_TIME",
+    "confidence": 0.95,
+    "camera_id": "cam1",
+    "events": [
+      {
+        "time": "04:42:44",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      }
+    ]
+  },
+  {
+    "id": "BudiStatus_6278ef_2026-11-02",
+    "name": "BudiStatus_6278ef",
+    "date": "2026-11-02",
+    "check_in": "04:42:44",
+    "check_out": "04:42:44",
+    "status": "ON_TIME",
+    "confidence": 0.95,
+    "camera_id": "cam1",
+    "events": [
+      {
+        "time": "04:42:44",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "04:42:44",
+        "confidence": 0.95,
+        "camera_id": "cam1"
+      },
+      {
+        "time": "04:42:44",
+        "confidence": 0.95,
+        "camera_id": "cam1"
       }
     ]
   }

@@ -8,7 +8,6 @@ import {
   Camera,
   CheckCircle2,
   Loader2,
-  AlertCircle,
   Cctv
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -100,31 +99,10 @@ export const RegisterFromCCTVPage: React.FC = () => {
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
           <Cctv className="w-6 h-6 text-emerald-400" /> Registrasi Wajah dari CCTV
         </h2>
-        <p className="text-xs md:text-sm text-zinc-400 mt-1">
-          Sistem akan mengambil 10 foto otomatis dari stream CCTV (angle top-down) untuk registrasi.
-        </p>
       </div>
 
       <Card className="bg-zinc-900 border-zinc-800 shadow-xl">
         <CardContent className="p-4 md:p-6 space-y-6">
-          {/* Instructions */}
-          <div className="bg-amber-950/30 border border-amber-800/50 rounded-xl p-4 space-y-2">
-            <div className="flex items-start gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" />
-              <div className="space-y-1">
-                <p className="text-sm font-semibold text-amber-300">
-                  Panduan Registrasi dari CCTV:
-                </p>
-                <ul className="text-xs text-amber-200/80 space-y-1 list-disc list-inside">
-                  <li>Pastikan CCTV sudah terdaftar dan online</li>
-                  <li>Berdiri di posisi yang sama dengan angle CCTV saat absensi nanti</li>
-                  <li>Sistem akan capture 10 frame otomatis (~3-5 detik)</li>
-                  <li>Jangan bergerak terlalu cepat, biarkan sistem detect wajah</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
           {/* Form */}
           <div className="space-y-4">
             <div>

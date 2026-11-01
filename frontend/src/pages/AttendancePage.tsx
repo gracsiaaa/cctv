@@ -50,9 +50,12 @@ interface AttendanceRecord {
 export const AttendancePage: React.FC = () => {
   const [records, setRecords] = useState<AttendanceRecord[]>([]);
   const [loading, setLoading] = useState(false);
-  const [filterDate, setFilterDate] = useState<string>(
-    new Date().toISOString().split("T")[0]
-  );
+  const getLocalDateString = () => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  };
+
+  const [filterDate, setFilterDate] = useState<string>(getLocalDateString());
   const { isAuthenticated } = useAuth();
 
   // Manual Override Dialog State
@@ -135,13 +138,13 @@ export const AttendancePage: React.FC = () => {
     const isOverridden = Boolean(r.override);
 
     let badge = null;
-    if (status.includes("ON_TIME")) {
+    if (status === "ON_TIME") {
       badge = (
         <span className="inline-flex items-center gap-1 bg-emerald-950/60 text-emerald-400 border border-emerald-800/60 px-2.5 py-0.5 rounded-full text-xs font-medium">
           <CheckCircle2 className="w-3.5 h-3.5" /> Tepat Waktu
         </span>
       );
-    } else if (status.includes("LATE")) {
+    } else if (status === "LATE") {
       badge = (
         <span className="inline-flex items-center gap-1 bg-amber-950/60 text-amber-400 border border-amber-800/60 px-2.5 py-0.5 rounded-full text-xs font-medium">
           <AlertTriangle className="w-3.5 h-3.5" /> Terlambat
@@ -182,9 +185,6 @@ export const AttendancePage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white">Log Presensi Karyawan</h2>
-          <p className="text-xs md:text-sm text-zinc-400 mt-1">
-            Data rekap absensi harian dan koreksi status kehadiran manual jika terjadi kesalahan perangkat
-          </p>
         </div>
 
         <div className="flex flex-wrap items-center gap-2">

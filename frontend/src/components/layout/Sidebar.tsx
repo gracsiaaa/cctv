@@ -7,7 +7,6 @@ import {
   Users,
   CalendarCheck2,
   Cctv,
-  Clock,
   Settings as SettingsIcon,
   ShieldCheck,
   LogOut,
@@ -26,7 +25,7 @@ export const Sidebar: React.FC = () => {
     { to: "/", label: "Dashboard", icon: LayoutDashboard },
     { to: "/live-snapshot", label: "Live Snapshot", icon: Camera },
     { to: "/recognize", label: "Live Absensi", icon: ScanFace },
-    { to: "/register", label: "Register Wajah", icon: UserPlus },
+    ...(isAuthenticated ? [{ to: "/register", label: "Register Wajah", icon: UserPlus }] : []),
     { to: "/people", label: "Data Karyawan", icon: Users },
     { to: "/attendance", label: "Log Presensi", icon: CalendarCheck2 },
   ];
@@ -34,9 +33,8 @@ export const Sidebar: React.FC = () => {
   const adminLinks = [
     { to: "/register-cctv", label: "Register dari CCTV", icon: Cctv },
     { to: "/cameras", label: "Kamera & CCTV", icon: Cctv },
-    { to: "/schedules", label: "Jadwal Multi-Shift", icon: Clock },
     { to: "/audit-logs", label: "Audit Log Trail", icon: ShieldCheck },
-    { to: "/settings", label: "Pengaturan AI", icon: SettingsIcon },
+    { to: "/settings", label: "Pengaturan", icon: SettingsIcon },
   ];
 
   const handleLogout = () => {
@@ -54,7 +52,6 @@ export const Sidebar: React.FC = () => {
           <h1 className="font-bold text-base leading-tight text-white flex items-center gap-1.5">
             FaceGuard <ShieldCheck className="w-4 h-4 text-emerald-400" />
           </h1>
-          <p className="text-[11px] text-zinc-400">AI Attendance System</p>
         </div>
       </div>
 
@@ -87,11 +84,8 @@ export const Sidebar: React.FC = () => {
 
         {isAuthenticated && (
           <div className="animate-in fade-in slide-in-from-top-2 duration-300">
-            <div className="px-3 mb-2 text-[10px] font-semibold text-zinc-400 uppercase tracking-wider flex items-center justify-between">
-              <span>Sistem & Konfigurasi</span>
-              <span className="text-[9px] bg-indigo-950 text-indigo-400 border border-indigo-800/60 px-1.5 py-0.2 rounded font-mono">
-                Admin
-              </span>
+            <div className="px-3 mb-2 text-[10px] font-semibold text-zinc-400 uppercase tracking-wider">
+              Sistem & Konfigurasi
             </div>
             <nav className="space-y-1">
               {adminLinks.map((link) => {
@@ -143,9 +137,8 @@ export const Sidebar: React.FC = () => {
         ) : (
           <Link to="/login" className="block">
             <Button
-              variant="outline"
               size="sm"
-              className="w-full border-zinc-800 hover:bg-zinc-800 text-xs text-zinc-300 flex items-center justify-center gap-1.5"
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-xs flex items-center justify-center gap-1.5 shadow-md shadow-indigo-600/20"
             >
               <LogIn className="w-3.5 h-3.5" /> Masuk Admin
             </Button>

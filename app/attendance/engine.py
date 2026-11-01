@@ -270,13 +270,10 @@ class AttendanceEngine:
         current_dtime = now.time()
         has_check_in = existing.get("check_in") is not None
         if not has_check_in:
-            existing["status"] = "NO_CHECK_IN_EARLY_LEAVE" if current_dtime < sched_out else "NO_CHECK_IN"
+            existing["status"] = "NO_CHECK_IN"
         else:
-            base_status = "LATE" if "LATE" in existing.get("status", "") else "ON_TIME"
-            if current_dtime < sched_out:
-                existing["status"] = f"{base_status}_EARLY_LEAVE" if base_status == "LATE" else "EARLY_LEAVE"
-            else:
-                existing["status"] = base_status
+            base_status = "LATE" if existing.get("status") == "LATE" else "ON_TIME"
+            existing["status"] = base_status
 
         save_json("attendance.json", records)
         self._last_seen[name] = now.timestamp()
@@ -315,8 +312,8 @@ class AttendanceEngine:
         present_users = set(r.get("name") for r in records)
         all_registered = set(registered_users)
         
-        on_time_count = sum(1 for r in records if "ON_TIME" in r.get("status", ""))
-        late_count = sum(1 for r in records if "LATE" in r.get("status", ""))
+        on_time_count = sum(1 for r in records if r.get("status") == "ON_TIME")
+        late_count = sum(1 for r in records if r.get("status") == "LATE")
         absent_users = list(all_registered - present_users)
 
         return {

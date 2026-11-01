@@ -310,5 +310,149 @@
     "target": "shift_cdd86f",
     "details": "Menghapus shift",
     "timestamp": "2026-10-14T17:08:58.053794"
+  },
+  {
+    "id": "aud_a03f1bc8",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T03:41:01.209731"
+  },
+  {
+    "id": "aud_c88be80b",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T03:44:28.707333"
+  },
+  {
+    "id": "aud_1599555c",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T03:59:09.012038"
+  },
+  {
+    "id": "aud_3564b4c7",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-11-02T03:59:09.037480"
+  },
+  {
+    "id": "aud_f51a6d5c",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_6f6fec",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-11-02T03:59:09.051805"
+  },
+  {
+    "id": "aud_be60f2e9",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_6f6fec",
+    "details": "Menghapus shift",
+    "timestamp": "2026-11-02T03:59:09.069626"
+  },
+  {
+    "id": "aud_ab4a6f75",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T04:02:13.215543"
+  },
+  {
+    "id": "aud_f018e309",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T04:35:30.992747"
+  },
+  {
+    "id": "aud_7c5bf2a8",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T04:36:52.720365"
+  },
+  {
+    "id": "aud_0e54aa89",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T04:41:42.806523"
+  },
+  {
+    "id": "aud_0a3d0505",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-11-02T04:41:42.831381"
+  },
+  {
+    "id": "aud_036ad592",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_fb45e9",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-11-02T04:41:42.848967"
+  },
+  {
+    "id": "aud_df9a0b83",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_fb45e9",
+    "details": "Menghapus shift",
+    "timestamp": "2026-11-02T04:41:42.870942"
+  },
+  {
+    "id": "aud_08fd97ce",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T04:42:44.848785"
+  },
+  {
+    "id": "aud_c1683c58",
+    "actor": "admin",
+    "action": "SAVE_EMPLOYEE",
+    "target": "Budi",
+    "details": "Menyimpan metadata karyawan Budi",
+    "timestamp": "2026-11-02T04:42:44.886154"
+  },
+  {
+    "id": "aud_1ab475e4",
+    "actor": "admin",
+    "action": "ADD_SHIFT",
+    "target": "shift_266146",
+    "details": "Menambah shift: Shift Khusus",
+    "timestamp": "2026-11-02T04:42:44.914591"
+  },
+  {
+    "id": "aud_3df4760a",
+    "actor": "admin",
+    "action": "DELETE_SHIFT",
+    "target": "shift_266146",
+    "details": "Menghapus shift",
+    "timestamp": "2026-11-02T04:42:44.939387"
+  },
+  {
+    "id": "aud_c4e4781b",
+    "actor": "admin",
+    "action": "LOGIN",
+    "target": "system",
+    "details": "Admin berhasil masuk ke dashboard",
+    "timestamp": "2026-11-02T04:46:07.180398"
   }
 ]

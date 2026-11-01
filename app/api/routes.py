@@ -430,8 +430,34 @@ def get_employee(name: str):
 
 @router.put("/employees/{name}")
 def update_employee(name: str, payload: EmployeePayload):
+    new_name = payload.name.strip() if payload.name else name
     data = payload.model_dump(exclude_unset=True)
-    updated = attendance_engine.save_employee(name, data)
+
+    # If name is being changed, update face_db, attendance.json, and employees.json
+    if new_name != name:
+        if new_name in face_db:
+            raise HTTPException(status_code=400, detail=f"Nama '{new_name}' sudah digunakan karyawan lain")
+
+        # 1. Update face_db
+        if name in face_db:
+            face_db[new_name] = face_db.pop(name)
+            save_face_db(face_db)
+            pipeline.update_db(face_db)
+
+        # 2. Update attendance.json records
+        records = load_json("attendance.json", default=[])
+        for r in records:
+            if r.get("name") == name:
+                r["name"] = new_name
+                if r.get("id", "").startswith(f"{name}_"):
+                    r["id"] = r["id"].replace(f"{name}_", f"{new_name}_", 1)
+        save_json("attendance.json", records)
+
+        # 3. Update employee record key in employees.json
+        attendance_engine.delete_employee(name)
+        data["name"] = new_name
+
+    updated = attendance_engine.save_employee(new_name, data)
     return {"status": "success", "employee": updated}
 
 # ==========================

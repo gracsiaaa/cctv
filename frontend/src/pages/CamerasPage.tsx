@@ -21,8 +21,7 @@ import {
   CheckCircle2,
   XCircle,
   Play,
-  Square,
-  Radio
+  Square
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useAuth } from "@/context/AuthContext";
@@ -208,11 +207,8 @@ export const CamerasPage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
-            <Cctv className="w-6 h-6 text-indigo-400" /> Manajemen CCTV & RTSP
+            <Cctv className="w-6 h-6 text-indigo-400" /> Kamera & CCTV
           </h2>
-          <p className="text-xs md:text-sm text-zinc-400 mt-1">
-            Konfigurasi 1 CCTV utama atau multi-kamera untuk presensi otomatis dan pemantauan event
-          </p>
         </div>
 
         {isAuthenticated && (
@@ -223,19 +219,6 @@ export const CamerasPage: React.FC = () => {
             <Plus className="w-4 h-4" /> Daftarkan CCTV Baru
           </Button>
         )}
-      </div>
-
-      {/* Guide Banner for 1 CCTV vs Multi CCTV */}
-      <div className="p-4 bg-zinc-900/80 border border-zinc-800 rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs">
-        <div className="space-y-1">
-          <span className="font-semibold text-white flex items-center gap-1.5">
-            <Radio className="w-4 h-4 text-emerald-400" />
-            Konfigurasi Single CCTV (1 Kamera Saja)
-          </span>
-          <p className="text-zinc-400 text-[11px] leading-relaxed">
-            Gunakan mode <strong>AUTO (Otomatis)</strong> jika hanya memiliki 1 CCTV. Deteksi pertama setiap hari otomatis tercatat sebagai Check-In (Masuk), dan deteksi berikutnya setelah jeda waktu tercatat sebagai Check-Out (Pulang). Anda dapat menambah CCTV kedua kapan saja (misal untuk pintu keluar).
-          </p>
-        </div>
       </div>
 
       {/* Desktop Table View */}

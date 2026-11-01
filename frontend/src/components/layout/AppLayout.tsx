@@ -57,7 +57,7 @@ export const AppLayout: React.FC = () => {
             {isAuthenticated && (
               <Link
                 to="/settings"
-                title="Pengaturan AI"
+                title="Pengaturan"
                 className="p-1.5 rounded-lg text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors"
               >
                 <Settings className="w-4 h-4" />
@@ -69,15 +69,11 @@ export const AppLayout: React.FC = () => {
         {/* Desktop Top Header Bar with Live Clock, Notifications & Admin Status */}
         <header className="hidden lg:flex sticky top-0 z-30 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/80 px-8 py-3.5 items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="flex h-2 w-2 rounded-full bg-emerald-500"></span>
-            <span className="text-xs font-medium text-zinc-400">
-              Sistem CCTV & Attendance Engine: <strong className="text-emerald-400">ONLINE</strong>
-            </span>
+            <LiveClock size="md" />
           </div>
 
           <div className="flex items-center gap-4">
             <NotificationBell />
-            <LiveClock size="md" />
 
             {isAuthenticated ? (
               <div className="flex items-center gap-2 pl-3 border-l border-zinc-800">

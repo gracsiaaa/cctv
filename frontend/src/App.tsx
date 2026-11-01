@@ -12,7 +12,6 @@ import { LiveSnapshotPage } from "./pages/LiveSnapshotPage";
 import { PeoplePage } from "./pages/PeoplePage";
 import { AttendancePage } from "./pages/AttendancePage";
 import { CamerasPage } from "./pages/CamerasPage";
-import { SchedulesPage } from "./pages/SchedulesPage";
 import { AuditLogsPage } from "./pages/AuditLogsPage";
 import { SettingsPage } from "./pages/SettingsPage";
 
@@ -30,7 +29,14 @@ export const App: React.FC = () => {
             <Route index element={<DashboardPage />} />
             <Route path="recognize" element={<RecognizePage />} />
             <Route path="live-snapshot" element={<LiveSnapshotPage />} />
-            <Route path="register" element={<RegisterPage />} />
+            <Route
+              path="register"
+              element={
+                <ProtectedRoute>
+                  <RegisterPage />
+                </ProtectedRoute>
+              }
+            />
             <Route path="people" element={<PeoplePage />} />
             <Route path="attendance" element={<AttendancePage />} />
 
@@ -48,14 +54,6 @@ export const App: React.FC = () => {
               element={
                 <ProtectedRoute>
                   <CamerasPage />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="schedules"
-              element={
-                <ProtectedRoute>
-                  <SchedulesPage />
                 </ProtectedRoute>
               }
             />

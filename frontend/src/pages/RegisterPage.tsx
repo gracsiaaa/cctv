@@ -186,12 +186,8 @@ export const RegisterPage: React.FC = () => {
   return (
     <div className="space-y-6 max-w-2xl mx-auto">
       <div>
-        <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
-          <Zap className="w-6 h-6 text-amber-400" /> Registrasi Wajah Otomatis
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2"> Registrasi Wajah Otomatis
         </h2>
-        <p className="text-xs md:text-sm text-zinc-400 mt-1">
-          Sistem akan mengambil 10 foto otomatis secara beruntun dari berbagai sudut wajah untuk akurasi terbaik.
-        </p>
       </div>
 
       <Card className="bg-zinc-900 border-zinc-800 shadow-xl overflow-hidden">

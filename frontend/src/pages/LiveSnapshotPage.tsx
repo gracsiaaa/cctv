@@ -129,7 +129,7 @@ export const LiveSnapshotPage: React.FC = () => {
       // Backend returns { status: "success", action: "CHECKED_OUT", record: {...} }
       if (res.data.status === "success" || res.data.success === true) {
         toast({
-          title: `✅ Presensi ${actionLabel} Berhasil`,
+          title: `Presensi ${actionLabel} Berhasil`,
           description: `${latestEvent.name} - ${res.data.action || res.data.status}`,
         });
         
@@ -164,9 +164,6 @@ export const LiveSnapshotPage: React.FC = () => {
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
             <Camera className="w-6 h-6 text-indigo-400" /> Live Snapshot CCTV
           </h2>
-          <p className="text-xs md:text-sm text-zinc-400 mt-1">
-            Snapshot terbaru dari CCTV untuk absensi masuk dan keluar
-          </p>
         </div>
 
         <div className="flex items-center gap-2">
@@ -329,7 +326,7 @@ export const LiveSnapshotPage: React.FC = () => {
             {/* Helper Text */}
             <div className="bg-zinc-800/50 border border-zinc-700 rounded-lg p-3">
               <p className="text-xs text-zinc-400 leading-relaxed">
-                💡 <span className="font-semibold text-zinc-300">Cara Pakai:</span> Berdiri di depan CCTV → Wajah terdeteksi otomatis → Klik tombol <span className="text-emerald-400 font-semibold">Absen Masuk</span> saat datang atau <span className="text-rose-400 font-semibold">Absen Keluar</span> saat pulang.
+                <span className="font-semibold text-zinc-300">Cara Pakai:</span> Berdiri di depan CCTV, wajah terdeteksi otomatis. Klik tombol <span className="text-emerald-400 font-semibold">Absen Masuk</span> saat datang atau <span className="text-rose-400 font-semibold">Absen Keluar</span> saat pulang.
               </p>
             </div>
           </div>

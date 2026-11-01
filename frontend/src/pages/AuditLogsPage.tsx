@@ -68,11 +68,8 @@ export const AuditLogsPage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-2">
-            <ShieldCheck className="w-6 h-6 text-indigo-400" /> Audit Log & Jejak Aktivitas
+            <ShieldCheck className="w-6 h-6 text-indigo-400" /> Audit Log
           </h2>
-          <p className="text-xs md:text-sm text-zinc-400 mt-1">
-            Rekam jejak seluruh tindakan administratif, perubahan status absensi manual, dan manajemen sistem
-          </p>
         </div>
 
         <Button

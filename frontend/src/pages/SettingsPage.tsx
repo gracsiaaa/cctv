@@ -35,7 +35,7 @@ export const SettingsPage: React.FC = () => {
 
       toast({
         title: "Pengaturan Tersimpan",
-        description: "Parameter mesin AI berhasil diperbarui",
+        description: "Pengaturan berhasil diperbarui",
       });
     } catch (err) {
       toast({
@@ -55,16 +55,13 @@ export const SettingsPage: React.FC = () => {
   return (
     <div className="space-y-6 max-w-xl mx-auto">
       <div>
-        <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white">Pengaturan Mesin AI</h2>
-        <p className="text-xs md:text-sm text-zinc-400 mt-1">
-          Konfigurasi ambang batas akurasi ArcFace dan durasi jeda anti-duplikasi absensi.
-        </p>
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white">Pengaturan</h2>
       </div>
 
       <Card className="bg-zinc-900 border-zinc-800 shadow-xl">
         <CardHeader className="border-b border-zinc-800 p-4 md:p-6">
           <CardTitle className="text-base text-white flex items-center gap-2">
-            <Sliders className="w-5 h-5 text-indigo-400" /> Parameter Recognition
+            <Sliders className="w-5 h-5 text-indigo-400" /> Parameter
           </CardTitle>
         </CardHeader>
 
@@ -84,9 +81,6 @@ export const SettingsPage: React.FC = () => {
                 onChange={(e) => setThreshold(Number(e.target.value))}
                 className="w-full h-2 bg-zinc-800 rounded-lg appearance-none cursor-pointer accent-indigo-500"
               />
-              <p className="text-[11px] text-zinc-400">
-                Nilai standar 0.40. Nilai lebih tinggi (misal 0.50) lebih ketat dan mengurangi salah identifikasi.
-              </p>
             </div>
 
             <div className="space-y-2 pt-2 border-t border-zinc-800">
@@ -103,14 +97,11 @@ export const SettingsPage: React.FC = () => {
                 onChange={(e) => setCooldownSeconds(Number(e.target.value))}
                 className="w-full h-2 bg-zinc-800 rounded-lg appearance-none cursor-pointer accent-emerald-500"
               />
-              <p className="text-[11px] text-zinc-400">
-                Mencegah orang yang sama tercatat berulang kali saat berdiri di depan kamera.
-              </p>
             </div>
 
             <div className="p-3 bg-zinc-950/60 rounded-xl border border-zinc-800 text-xs text-zinc-400 space-y-2">
               <div className="flex items-center gap-2 font-medium text-white">
-                <Cpu className="w-4 h-4 text-indigo-400" /> Informasi Arsitektur AI
+                <Cpu className="w-4 h-4 text-indigo-400" /> Informasi Sistem
               </div>
               <div className="grid grid-cols-2 gap-2 text-[11px]">
                 <div>Model Deteksi: <span className="text-white">SCRFD 10G</span></div>

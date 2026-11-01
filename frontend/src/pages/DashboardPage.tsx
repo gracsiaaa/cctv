@@ -101,7 +101,8 @@ export const DashboardPage: React.FC = () => {
       .then((res) => setCameraCount(res.data.cameras?.length || 0))
       .catch(() => {});
 
-    const todayDate = new Date().toISOString().split("T")[0];
+    const now = new Date();
+    const todayDate = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
     apiClient.get(`/attendance?date=${todayDate}`)
       .then((res) => setTodayRecords(res.data.records || []))
       .catch(() => {});
@@ -169,12 +170,12 @@ export const DashboardPage: React.FC = () => {
     for (let i = 6; i >= 0; i--) {
       const d = new Date();
       d.setDate(d.getDate() - i);
-      const dateStr = d.toISOString().split("T")[0];
+      const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
       const dayName = dayNames[d.getDay()];
 
       const dayRecords = allRecords.filter((r) => r.date === dateStr);
-      const onTime = dayRecords.filter((r) => r.status.includes("ON_TIME")).length;
-      const late = dayRecords.filter((r) => r.status.includes("LATE")).length;
+      const onTime = dayRecords.filter((r) => r.status === "ON_TIME").length;
+      const late = dayRecords.filter((r) => r.status === "LATE").length;
 
       days.push({
         dayName,
@@ -202,16 +203,9 @@ export const DashboardPage: React.FC = () => {
       {/* Header Banner with Live Clock */}
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-zinc-950 p-6 rounded-2xl border border-zinc-800 shadow-xl">
         <div className="space-y-2">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-950/80 border border-indigo-800/60 text-indigo-300 text-xs font-semibold">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Pusat Kontrol Absensi AI
-          </div>
           <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
             Dashboard Monitoring Presensi
           </h2>
-          <p className="text-xs md:text-sm text-zinc-400 max-w-xl">
-            Sistem pengenalan wajah real-time mendeteksi kehadiran, mencatat jam masuk, jam pulang, dan status keterlambatan secara otomatis.
-          </p>
         </div>
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
@@ -233,7 +227,6 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold text-emerald-400">{serverStatus}</div>
-            <p className="text-[10px] text-zinc-400 mt-0.5">CPU Engine</p>
           </CardContent>
         </Card>
 
@@ -244,7 +237,6 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold text-white">{stats?.total_registered ?? 0}</div>
-            <p className="text-[10px] text-zinc-400 mt-0.5">Database Wajah</p>
           </CardContent>
         </Card>
 
@@ -255,7 +247,6 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold text-teal-400">{stats?.total_present_today ?? 0}</div>
-            <p className="text-[10px] text-zinc-400 mt-0.5">Hari ini</p>
           </CardContent>
         </Card>
 
@@ -266,7 +257,6 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold text-emerald-400">{stats?.on_time_today ?? 0}</div>
-            <p className="text-[10px] text-zinc-400 mt-0.5">Sesuai shift</p>
           </CardContent>
         </Card>
 
@@ -277,7 +267,6 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold text-amber-400">{stats?.late_today ?? 0}</div>
-            <p className="text-[10px] text-zinc-400 mt-0.5">Lewat toleransi</p>
           </CardContent>
         </Card>
 
@@ -288,7 +277,6 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="p-3 pt-0">
             <div className="text-xl font-bold text-rose-400">{stats?.absent_today ?? 0}</div>
-            <p className="text-[10px] text-zinc-400 mt-0.5">Tidak ada event</p>
           </CardContent>
         </Card>
       </div>
@@ -301,9 +289,6 @@ export const DashboardPage: React.FC = () => {
               <TrendingUp className="w-5 h-5 text-indigo-400" />
               Tren Kehadiran 7 Hari Terakhir
             </CardTitle>
-            <p className="text-xs text-zinc-400 mt-0.5">
-              Grafik perbandingan karyawan tepat waktu vs terlambat dalam seminggu
-            </p>
           </div>
           <div className="flex items-center gap-4 text-xs font-medium">
             <span className="flex items-center gap-1.5 text-emerald-400">
@@ -370,9 +355,6 @@ export const DashboardPage: React.FC = () => {
                 <Users className="w-5 h-5 text-indigo-400" />
                 Daftar Karyawan yang Sudah Presensi Hari Ini ({todayRecords.length})
               </CardTitle>
-              <p className="text-xs text-zinc-400 mt-0.5">
-                Rincian kehadiran, jam masuk, jam pulang, dan status keterlambatan karyawan
-              </p>
             </div>
 
             {/* Filter Tabs */}
@@ -434,7 +416,6 @@ export const DashboardPage: React.FC = () => {
           ) : (
             <div className="divide-y divide-zinc-800/80">
               {filteredRecords.map((r, index) => {
-                const isLate = r.status.includes("LATE");
                 const isEarlyLeave = r.status.includes("EARLY_LEAVE");
                 const isOverridden = Boolean(r.override);
 
@@ -486,13 +467,17 @@ export const DashboardPage: React.FC = () => {
 
                       {/* Status Badge */}
                       <div className="w-28 text-right font-sans">
-                        {isLate ? (
+                        {r.status === "LATE" ? (
                           <span className="inline-block px-2.5 py-1 rounded-full text-[11px] font-semibold bg-amber-950/70 text-amber-400 border border-amber-800/60">
                             Terlambat
                           </span>
-                        ) : (
+                        ) : r.status === "ON_TIME" ? (
                           <span className="inline-block px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-950/70 text-emerald-400 border border-emerald-800/60">
                             Tepat Waktu
+                          </span>
+                        ) : (
+                          <span className="inline-block px-2.5 py-1 rounded-full text-[11px] font-semibold bg-zinc-800 text-zinc-300">
+                            {r.status}
                           </span>
                         )}
                         {isEarlyLeave && (

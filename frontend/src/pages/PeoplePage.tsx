@@ -16,6 +16,7 @@ import {
 import { Trash2, Search, UserPlus, Sparkles, Edit3, Building2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
+import { useAuth } from "@/context/AuthContext";
 
 interface PersonItem {
   name: string;
@@ -49,6 +50,7 @@ export const PeoplePage: React.FC = () => {
   // Edit modal state
   const [editPerson, setEditPerson] = useState<EmployeeMetadata | null>(null);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
+  const [editName, setEditName] = useState("");
   const [editEmployeeCode, setEditEmployeeCode] = useState("");
   const [editDepartment, setEditDepartment] = useState("");
   const [editPosition, setEditPosition] = useState("");
@@ -56,6 +58,7 @@ export const PeoplePage: React.FC = () => {
   const [editSaving, setEditSaving] = useState(false);
 
   const { toast } = useToast();
+  const { isAuthenticated } = useAuth();
 
   const fetchData = async () => {
     try {
@@ -116,6 +119,7 @@ export const PeoplePage: React.FC = () => {
     };
 
     setEditPerson(meta);
+    setEditName(meta.name);
     setEditEmployeeCode(meta.employee_code || "");
     setEditDepartment(meta.department || "Operasional");
     setEditPosition(meta.position || "Staff");
@@ -126,11 +130,19 @@ export const PeoplePage: React.FC = () => {
   const handleSaveEdit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!editPerson) return;
+    if (!editName.trim()) {
+      toast({
+        title: "Nama Tidak Boleh Kosong",
+        description: "Silakan masukkan nama karyawan",
+        variant: "destructive"
+      });
+      return;
+    }
 
     try {
       setEditSaving(true);
       const payload = {
-        name: editPerson.name,
+        name: editName.trim(),
         employee_code: editEmployeeCode,
         department: editDepartment,
         position: editPosition,
@@ -141,14 +153,11 @@ export const PeoplePage: React.FC = () => {
 
       toast({
         title: "Data Diperbarui",
-        description: `Informasi data karyawan ${editPerson.name} berhasil disimpan`,
+        description: `Informasi data karyawan ${payload.name} berhasil disimpan`,
       });
 
       setIsEditDialogOpen(false);
-      setEmployees((prev) => ({
-        ...prev,
-        [editPerson.name]: payload
-      }));
+      fetchData();
     } catch (err: any) {
       toast({
         title: "Gagal Menyimpan",
@@ -173,15 +182,14 @@ export const PeoplePage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white">Database Karyawan</h2>
-          <p className="text-xs md:text-sm text-zinc-400 mt-1">
-            Kelola profil, jabatan, departemen, shift kerja, dan sampel vektor wajah karyawan
-          </p>
         </div>
-        <Link to="/register">
-          <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium flex items-center gap-2">
-            <UserPlus className="w-4 h-4" /> Registrasi Wajah Baru
-          </Button>
-        </Link>
+        {isAuthenticated && (
+          <Link to="/register">
+            <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium flex items-center gap-2">
+              <UserPlus className="w-4 h-4" /> Registrasi Wajah Baru
+            </Button>
+          </Link>
+        )}
       </div>
 
       {/* Search Bar */}
@@ -205,7 +213,6 @@ export const PeoplePage: React.FC = () => {
                   <TableHead className="w-16">No</TableHead>
                   <TableHead>Nama & ID</TableHead>
                   <TableHead>Departemen & Jabatan</TableHead>
-                  <TableHead>Shift Kerja</TableHead>
                   <TableHead>Model ArcFace</TableHead>
                   <TableHead className="text-right">Aksi</TableHead>
                 </TableRow>
@@ -213,20 +220,19 @@ export const PeoplePage: React.FC = () => {
               <TableBody>
                 {loading ? (
                   <TableRow>
-                    <TableCell colSpan={6} className="text-center py-8 text-zinc-400">
+                    <TableCell colSpan={5} className="text-center py-8 text-zinc-400">
                       Memuat database karyawan...
                     </TableCell>
                   </TableRow>
                 ) : filtered.length === 0 ? (
                   <TableRow>
-                    <TableCell colSpan={6} className="text-center py-8 text-zinc-400">
+                    <TableCell colSpan={5} className="text-center py-8 text-zinc-400">
                       Tidak ada karyawan yang cocok
                     </TableCell>
                   </TableRow>
                 ) : (
                   filtered.map((person, index) => {
                     const emp = employees[person.name];
-                    const shiftName = shifts.find((s) => s.id === emp?.shift_id)?.name || "Shift Pagi";
 
                     return (
                       <TableRow key={person.name} className="border-zinc-800 hover:bg-zinc-800/40">
@@ -253,34 +259,35 @@ export const PeoplePage: React.FC = () => {
                           </div>
                         </TableCell>
                         <TableCell>
-                          <span className="text-xs px-2 py-0.5 rounded-md bg-zinc-800 border border-zinc-700 text-zinc-300">
-                            {shiftName}
-                          </span>
-                        </TableCell>
-                        <TableCell>
                           <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-indigo-950/60 text-indigo-300 border border-indigo-800/50">
                             <Sparkles className="w-3 h-3" /> {person.embeddings_count} Foto Vektor
                           </span>
                         </TableCell>
                         <TableCell className="text-right space-x-1">
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            onClick={() => openEditDialog(person)}
-                            className="text-indigo-400 hover:text-indigo-300 hover:bg-indigo-950/40"
-                            title="Edit Data Karyawan"
-                          >
-                            <Edit3 className="w-4 h-4" />
-                          </Button>
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            onClick={() => openDeleteDialog(person.name)}
-                            className="text-rose-400 hover:text-rose-300 hover:bg-rose-950/50"
-                            title="Hapus Karyawan"
-                          >
-                            <Trash2 className="w-4 h-4" />
-                          </Button>
+                          {isAuthenticated ? (
+                            <>
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                onClick={() => openEditDialog(person)}
+                                className="text-indigo-400 hover:text-indigo-300 hover:bg-indigo-950/40"
+                                title="Edit Data Karyawan"
+                              >
+                                <Edit3 className="w-4 h-4" />
+                              </Button>
+                              <Button
+                                variant="ghost"
+                                size="icon"
+                                onClick={() => openDeleteDialog(person.name)}
+                                className="text-rose-400 hover:text-rose-300 hover:bg-rose-950/50"
+                                title="Hapus Karyawan"
+                              >
+                                <Trash2 className="w-4 h-4" />
+                              </Button>
+                            </>
+                          ) : (
+                            <span className="text-xs text-zinc-400 italic">Read-only</span>
+                          )}
                         </TableCell>
                       </TableRow>
                     );
@@ -316,24 +323,26 @@ export const PeoplePage: React.FC = () => {
                       </span>
                     </div>
                   </div>
-                  <div className="flex items-center gap-1">
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => openEditDialog(person)}
-                      className="text-indigo-400 h-8 w-8"
-                    >
-                      <Edit3 className="w-4 h-4" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => openDeleteDialog(person.name)}
-                      className="text-rose-400 h-8 w-8"
-                    >
-                      <Trash2 className="w-4 h-4" />
-                    </Button>
-                  </div>
+                  {isAuthenticated && (
+                    <div className="flex items-center gap-1">
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => openEditDialog(person)}
+                        className="text-indigo-400 h-8 w-8"
+                      >
+                        <Edit3 className="w-4 h-4" />
+                      </Button>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => openDeleteDialog(person.name)}
+                        className="text-rose-400 h-8 w-8"
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </Button>
+                    </div>
+                  )}
                 </div>
                 <div className="flex justify-between items-center text-xs pt-2 border-t border-zinc-800/80">
                   <span className="text-[11px] text-zinc-400">
@@ -366,37 +375,20 @@ export const PeoplePage: React.FC = () => {
               <div className="space-y-1">
                 <Label className="text-xs text-zinc-300">Nama Karyawan</Label>
                 <Input
-                  disabled
-                  value={editPerson.name}
-                  className="bg-zinc-950/60 border-zinc-800 text-zinc-400 cursor-not-allowed"
+                  value={editName}
+                  onChange={(e) => setEditName(e.target.value)}
+                  className="bg-zinc-950 border-zinc-800 text-white"
                 />
               </div>
 
-              <div className="grid grid-cols-2 gap-3">
-                <div className="space-y-1">
-                  <Label className="text-xs text-zinc-300">Nomor / ID Karyawan</Label>
-                  <Input
-                    value={editEmployeeCode}
-                    onChange={(e) => setEditEmployeeCode(e.target.value)}
-                    placeholder="EMP-001"
-                    className="bg-zinc-950 border-zinc-800 text-white"
-                  />
-                </div>
-
-                <div className="space-y-1">
-                  <Label className="text-xs text-zinc-300">Shift Kerja</Label>
-                  <select
-                    value={editShiftId}
-                    onChange={(e) => setEditShiftId(e.target.value)}
-                    className="w-full bg-zinc-950 border border-zinc-800 rounded-md px-3 py-2 text-xs text-white focus:outline-none focus:ring-1 focus:ring-indigo-500"
-                  >
-                    {shifts.map((s) => (
-                      <option key={s.id} value={s.id}>
-                        {s.name}
-                      </option>
-                    ))}
-                  </select>
-                </div>
+              <div className="space-y-1">
+                <Label className="text-xs text-zinc-300">Nomor / ID Karyawan</Label>
+                <Input
+                  value={editEmployeeCode}
+                  onChange={(e) => setEditEmployeeCode(e.target.value)}
+                  placeholder="EMP-001"
+                  className="bg-zinc-950 border-zinc-800 text-white"
+                />
               </div>
 
               <div className="grid grid-cols-2 gap-3">

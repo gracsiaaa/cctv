@@ -100,9 +100,11 @@ export const RecognizePage: React.FC = () => {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    // Match canvas coordinate size to the visible video size
-    canvas.width = video.videoWidth;
-    canvas.height = video.videoHeight;
+    // Match canvas internal resolution to the real video stream resolution
+    if (canvas.width !== video.videoWidth || canvas.height !== video.videoHeight) {
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+    }
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     detectedFaces.forEach((face) => {
@@ -398,16 +400,8 @@ export const RecognizePage: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-zinc-900/90 p-4 rounded-2xl border border-zinc-800">
             <div>
               <h2 className="text-xl md:text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-                <span
-                  className={`w-3 h-3 rounded-full ${
-                    isStreaming ? "bg-emerald-500 animate-pulse" : "bg-zinc-600"
-                  }`}
-                ></span>
                 Scanner Kamera Interaktif
               </h2>
-              <p className="text-xs text-zinc-400 mt-0.5">
-                Mode webcam untuk testing laptop atau ponsel (klik tombol untuk check-in/out)
-              </p>
             </div>
 
             <div className="flex items-center gap-3">
@@ -438,38 +432,39 @@ export const RecognizePage: React.FC = () => {
             <div className="lg:col-span-2 space-y-3">
               <Card className="bg-zinc-900 border-zinc-800 overflow-hidden relative shadow-2xl">
                 <div className="relative aspect-video bg-black flex items-center justify-center">
-                  <Webcam
-                    audio={false}
-                    ref={webcamRef}
-                    screenshotFormat="image/jpeg"
-                    videoConstraints={{
-                      facingMode: facingMode,
-                      width: { ideal: 1280 },
-                      height: { ideal: 720 },
-                    }}
-                    className="w-full h-full object-cover"
-                  />
-                  <canvas
-                    ref={canvasRef}
-                    className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-                  />
+                  {isStreaming ? (
+                    <>
+                      <Webcam
+                        audio={false}
+                        mirrored={false}
+                        ref={webcamRef}
+                        screenshotFormat="image/jpeg"
+                        videoConstraints={{
+                          facingMode: facingMode,
+                        }}
+                        className="w-full h-full object-contain"
+                      />
+                      <canvas
+                        ref={canvasRef}
+                        className="absolute inset-0 w-full h-full object-contain pointer-events-none"
+                      />
 
-                  {/* Camera Flip Button */}
-                  <div className="absolute top-3 right-3 flex gap-2">
-                    <Button
-                      type="button"
-                      variant="outline"
-                      size="icon"
-                      onClick={toggleCamera}
-                      className="bg-black/60 border-zinc-700/80 text-white hover:bg-black/80 rounded-full h-9 w-9 backdrop-blur-md"
-                      title="Ganti Kamera"
-                    >
-                      <SwitchCamera className="w-4 h-4" />
-                    </Button>
-                  </div>
-
-                  {!isStreaming && (
-                    <div className="absolute inset-0 bg-black/75 backdrop-blur-sm flex flex-col items-center justify-center p-4 text-center">
+                      {/* Camera Flip Button */}
+                      <div className="absolute top-3 right-3 flex gap-2">
+                        <Button
+                          type="button"
+                          variant="outline"
+                          size="icon"
+                          onClick={toggleCamera}
+                          className="bg-black/60 border-zinc-700/80 text-white hover:bg-black/80 rounded-full h-9 w-9 backdrop-blur-md"
+                          title="Ganti Kamera"
+                        >
+                          <SwitchCamera className="w-4 h-4" />
+                        </Button>
+                      </div>
+                    </>
+                  ) : (
+                    <div className="absolute inset-0 bg-black flex flex-col items-center justify-center p-4 text-center">
                       <div className="p-4 rounded-full bg-zinc-800/80 text-zinc-400 mb-3 border border-zinc-700">
                         <Video className="w-8 h-8" />
                       </div>
